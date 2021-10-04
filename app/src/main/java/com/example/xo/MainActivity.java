@@ -14,7 +14,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
+
+
         btn1.setOnClickListener(this::btnClick);
+        btn2.setOnClickListener(this::btnClick);
+        btn3.setOnClickListener(this::btnClick);
+        btn4.setOnClickListener(this::btnClick);
+        btn5.setOnClickListener(this::btnClick);
+        btn6.setOnClickListener(this::btnClick);
+        btn7.setOnClickListener(this::btnClick);
+        btn8.setOnClickListener(this::btnClick);
+        btn9.setOnClickListener(this::btnClick);
 
         btnReset.setOnClickListener(view -> {
             btn1.setText("");
