@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         btn7.setOnClickListener(this::btnClick);
         btn8.setOnClickListener(this::btnClick);
         btn9.setOnClickListener(this::btnClick);
+        
 
         btnReset.setOnClickListener(view -> {
             btn1.setText("");
